@@ -1,33 +1,55 @@
 body {
-  margin: 0;
+  margin: 10px 50px;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 .headerWrapper {
-  width: 100%;
+  margin: 5% 20%;
   height: 10%;
-  border-bottom: 2px solid grey;
+  border: 2px solid grey;
+  border-radius: 5px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  box-shadow: 8px 7px 21px 13px #000000;
+  border-radius: 10px;
 }
 
+.shoppingListWrapper {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  background-repeat:repeat-y;
+  background-position: inherit;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 8px 7px 21px 13px #000000;
+  border-radius: 10px;
+  background-image: url(C:\Users\preze\Desktop\tata\Shopping list\my-app\src\component\data\istockphoto-1316968335-1024x1024.jpg);
+}
 .appWrapper {
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
 .footerWrapper {
-  width: 100%;
   padding: 16px;
-  border-top: 2px solid grey;
-  margin-top: auto;
+  border: 2px solid grey;
+  margin: auto;
+  margin-bottom: 0px;
+  width: 35%;
+  height: 10%;
+  border-radius: 5px;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
+  box-shadow: 8px 7px 21px 13px #000000;
+  border-radius: 10px;
 }
 
 .mainWrapper {
@@ -40,13 +62,17 @@ body {
 }
 
 .listWrapper {
-  border: 1px solid gray;
+  border: 1px solid rgb(35, 17, 17);
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 80%;
   padding: 0px 10px;
   border-radius: 15px;
+  background-color: hsl(240, 91%, 52%, 0.5);
+  color: aliceblue;
+  font-family: cursive;
+  font-size: 1.2em;
 }
 
 .doneBtn {
@@ -80,12 +106,16 @@ body {
 }
 
 .form {
-  width: 100%;
+  width: 35%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   gap: 10px;
   padding: 16px;
+  box-shadow: 8px 7px 21px 13px #000000;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .select {
@@ -110,5 +140,5 @@ body {
 .addBtn:hover {
   background-color: blue;
   color: white;
-  cursor:pointer;
+  cursor: pointer;
 }
