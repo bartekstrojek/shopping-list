@@ -14,12 +14,14 @@ body {
   align-items: center;
   box-shadow: 8px 7px 21px 13px #000000;
   border-radius: 10px;
+  background-color: white;
 }
 
 .shoppingListWrapper {
   height: 50%;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-repeat:repeat-y;
   background-position: inherit;
   margin-left: 20%;
@@ -31,17 +33,19 @@ body {
   background-image: url(C:\Users\preze\Desktop\tata\Shopping list\my-app\src\component\data\istockphoto-1316968335-1024x1024.jpg);
 }
 .appWrapper {
-  border: 1px solid black;
+  box-shadow: 8px 7px 21px 13px #000000;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  border-radius: 10px;
+  background-color: #f6f61a1a;
 }
 
 .footerWrapper {
   padding: 16px;
   border: 2px solid grey;
   margin: auto;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   width: 35%;
   height: 10%;
   border-radius: 5px;
@@ -50,6 +54,8 @@ body {
   align-items: center;
   box-shadow: 8px 7px 21px 13px #000000;
   border-radius: 10px;
+  background-color: white;
+
 }
 
 .mainWrapper {
@@ -58,7 +64,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  padding-top: 32px;
+
 }
 
 .listWrapper {
@@ -72,8 +78,7 @@ body {
   background-color: hsl(240, 91%, 52%, 0.5);
   color: aliceblue;
   font-family: cursive;
-  font-size: 1.2em;
-}
+ }
 
 .doneBtn {
   border: 1px solid green;
@@ -116,11 +121,14 @@ body {
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
+  background-color: white;
+
 }
 
 .select {
   padding: 3px;
   border-radius: 5px;
+  margin-left: 5px;
 }
 
 .input {
